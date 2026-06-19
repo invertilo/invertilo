@@ -15,15 +15,15 @@
 
 ### Presentacion
 
-¡Hola! Soy Vinicius, tengo 19 anos y soy un apasionado de la tecnologia, el desarrollo de software y la ciberseguridad ofensiva. Me considero una persona curiosa, autodidacta y orientada a resolver problemas complejos mediante el uso inteligente del codigo.
+¡Hola! Soy Vinicius, tengo 19 años y soy un apasionado de la tecnologia, el desarrollo de software y la ciberseguridad ofensiva. Me considero una persona curiosa, autodidacta y orientada a resolver problemas complejos mediante el uso inteligente del codigo.
 
-Mi viaje en la programacion comenzo por la curiosidad de entender como funcionan los sistemas por detras. Hoy en dia, dedico mi tiempo a disenar automatizaciones eficientes, integrar APIs para simplificar procesos y analizar la seguridad de aplicaciones web para entender sus puntos debiles y como protegerlas mejor.
+Mi viaje en la programacion comenzo por la curiosidad de entender como funcionan los sistemas por detras. Hoy en dia, dedico mi tiempo a diseñar automatizaciones eficientes, integrar APIs para simplificar procesos y analizar la seguridad de aplicaciones web para entender sus puntos debiles y como protegerlas mejor.
 
 ---
 
 ### Areas de Especializacion y Enfoque
 
-- Desarrollo Backend y Datos: Diseno de logica robusta del lado del servidor utilizando JavaScript, TypeScript y Python. Gestion y consulta de bases de datos estructuradas con SQL.
+- Desarrollo Backend y Datos: Diseño de logica robusta del lado del servidor utilizando JavaScript, TypeScript y Python. Gestion y consulta de bases de datos estructuradas con SQL.
 - Automatizacion y Flujos de Trabajo: Creacion de scripts personalizados para automatizar tareas repetitivas y consumo masivo de servicios mediante la integracion y el consumo avanzado de APIs.
 - Seguridad Ofensiva (Nivel Basico - Intermedio):
   - API Exploitation: Analisis de vulnerabilidades especificas en interfaces de programacion (OWASP Top 10 API Security).
