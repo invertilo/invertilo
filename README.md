@@ -50,7 +50,7 @@ Mi viaje en la programacion comenzo por la curiosidad de entender como funcionan
 
 #### Ciberseguridad y Analisis Web
 <p align="left">
-  <img src="https://img.shields.io/badge/Cybersecurity-Red%20Teaming-red?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Cybersecurity">
+  <img src="https://img.shields.io/badge/Cybersecurity-Gray%20Hat-gray?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Cybersecurity">
   <img src="https://img.shields.io/badge/API%20Security-Exploitation-yellow?style=for-the-badge&logo=owasp&logoColor=white" alt="API Security">
   <img src="https://img.shields.io/badge/WAF%20Bypass-Captcha%20%26%20Cloudflare-blue?style=for-the-badge&logo=cloudflare&logoColor=white" alt="WAF Bypass">
 </p>
