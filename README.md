@@ -75,13 +75,11 @@ Mi viaje en la programación comenzó por la curiosidad de entender el funcionam
 ## 📊 Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/invertilo?style=flat-square&logo=github&color=yellow" alt="Stars" />
+  <img src="https://img.shields.io/github/stars/invertilo/askforvinicius?style=flat-square&logo=github&color=yellow&label=Stars%20in%20askforvinicius" alt="Stars" />
   &nbsp;
-  <img src="https://img.shields.io/github/directory-file-count-size/invertilo/invertilo?style=flat-square&logo=github&color=blue" alt="Repos" />
+  <img src="https://img.shields.io/github/followers/invertilo?style=flat-square&logo=github&color=blue" alt="Followers" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=invertilo&theme=radial&hide_border=true" alt="GitHub Streak" />
-</p>
-
 
