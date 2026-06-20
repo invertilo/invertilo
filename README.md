@@ -82,4 +82,5 @@ Mi viaje en la programación comenzó por la curiosidad de entender el funcionam
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=invertilo&theme=radial&hide_border=true" alt="GitHub Streak" />
+</p>
 
