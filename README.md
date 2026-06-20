@@ -75,8 +75,13 @@ Mi viaje en la programación comenzó por la curiosidad de entender el funcionam
 ## 📊 Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=invertilo&show_icons=true&theme=radial" alt="GitHub Stats" width="490" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=invertilo&layout=compact&theme=radial" alt="Top Languages" width="380" />
+  <img src="https://img.shields.io/github/stars/invertilo?style=flat-square&logo=github&color=yellow" alt="Stars" />
+  &nbsp;
+  <img src="https://img.shields.io/github/directory-file-count-size/invertilo/invertilo?style=flat-square&logo=github&color=blue" alt="Repos" />
 </p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=invertilo&theme=radial&hide_border=true" alt="GitHub Streak" />
+</p>
+
 
