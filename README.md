@@ -4,8 +4,8 @@
   <img src="https://streak-stats.demolab.com/?user=invertilo&theme=radial&hide_border=true" alt="GitHub Streak" />
 </p>
 
-### **🛠️ C++ Low-Level Developer | 🔍 Game Security & Reverse Engineer | 🛡️ Anticheat Developer**
-*Desarrollador enfocado en sistemas de bajo nivel, manipulación de memoria de procesos, ingeniería inversa aplicada a videojuegos comerciales, bypasses de seguridad (VAC, EasyAntiCheat, BattlEye, Byfron/Hyperion) y desarrollo defensivo en Lua/C++.*
+### **🛠️ C++ Low-Level Developer | 🔍 Game Security & Reverse Engineer | 🛡️ Grey Hat Offensive Cybersecurity**
+*Especializado en ingeniería inversa, desarrollo de loaders de seguridad en C++, extracción de offsets de memoria (dumping), exploits de videojuegos, cheats externos, evasión de anticheats (VAC, EAC, BE, Byfron) y desarrollo defensivo/ofensivo.*
 
 ---
 
@@ -15,42 +15,45 @@
   </a>
   <img src="https://img.shields.io/badge/Status-Activo-10B981?style=for-the-badge" alt="Status" />
   <img src="https://img.shields.io/badge/Focus-Low__Level_%26_Game__Security-6366F1?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Ethic-Grey__Hat-grey?style=for-the-badge&logo=spyder" alt="Ethic" />
 </div>
 
 ---
 
 ## 🧑‍💻 Presentación Profesional
 
-Tengo 19 años y me especializo en la programación de sistemas a bajo nivel, la ciberseguridad ofensiva/defensiva y el análisis estático y dinámico de malware y binarios protegidos. Mi enfoque está orientado hacia el entendimiento profundo de cómo interactúan las aplicaciones con el hardware, el núcleo del sistema operativo y los componentes de integridad.
+Tengo 19 años y soy un apasionado del desarrollo de software a bajo nivel, la ingeniería inversa y la **ciberseguridad ofensiva bajo una filosofía de Sombrero Gris (Grey Hat)**. Considero que la mejor forma de defender un sistema es entendiendo a la perfección cómo atacarlo y vulnerarlo de manera efectiva.
 
-A lo largo de mi trayectoria, he investigado a fondo la arquitectura interna del sistema operativo **Windows (Windows Internals)**, dominando técnicas de inyección de código, manipulación del espacio de direcciones virtuales de procesos externos y evasión de sistemas de protección corporativos y lúdicos. Diseño cargadores dinámicos cifrados (**Secure Loaders**) en **C++20** y overlays interactivos optimizados usando aceleración por hardware.
+Dedico mi tiempo a la investigación de vulnerabilidades lógicas en videojuegos comerciales y plataformas multijugador masivas (como **FiveM**, **Roblox** y **Counter-Strike 2**), desarrollando cargadores seguros en **C++20** con renders de alto rendimiento (**DirectX 11 / ImGui**), y creando soluciones heurísticas defensivas basadas en el comportamiento real de los exploits actuales.
 
 ---
 
 ## ⚡ Áreas de Especialización y Enfoque Técnico
 
-### 🖥️ Desarrollo en C++ de Bajo Nivel y APIs Gráficas
-* **C++ Moderno (C++20):** Implementación de código altamente eficiente y seguro, optimizando el uso de recursos y manejo manual de memoria sin dejar huellas en disco (*Memory-Only Execution*).
-* **Dear ImGui & Overlays Premium:** Diseño de cargadores visuales modernos con animaciones cinemáticas suaves, utilizando renders personalizados sobre **DirectX 11** y **DirectX 9**.
-* **Integración y Cifrado:** Consumo seguro de APIs con cifrado estático de cadenas en tiempo de compilación y llamadas cifradas a librerías dinámicas (**lazy loading**).
+### 💀 Ciberseguridad Ofensiva & Filosofía Sombrero Gris (Grey Hat)
+* **Investigación de Vulnerabilidades (Vulnerability Research):** Identificación y explotación ética de fallos de diseño lógicos en APIs web y arquitecturas cliente-servidor de videojuegos.
+* **Desarrollo de Exploits a Medida:** Creación de vectores de ataque de prueba (Proof of Concept - PoC) y herramientas automatizadas para demostrar fallos de control de integridad en memoria y red.
+* **Análisis de Malware e Inyectores:** Desensamblado y auditoría de software malicioso, ejecutables de trampeo (mod menus) y inyectores DLL para entender sus técnicas de ocultamiento, ganchos de API (**API Hooking**) y métodos de inyección.
+* **Seguridad Ofensiva en FiveM:** Auditoría de servidores para detectar vulnerabilidades en el procesamiento de eventos mediante la inyección y manipulación de llamadas remotas no autorizadas (`TriggerServerEvent`).
 
-### 🔍 Ingeniería Inversa, Exploits y Memory Hacking
-* **Análisis de Memoria Virtual:** Explotación de procesos a través de la lectura y escritura externa (`ReadProcessMemory`, `WriteProcessMemory`, `VirtualAllocEx`) y manipulación avanzada de tablas de descriptores.
-* **Extracción de Offsets (Automated Dumping):** Desarrollo de escáneres heurísticos dinámicos y herramientas de extracción de firmas de bytes (**AOB Scanning / Pattern Scanning**) para mantener los offsets actualizados de forma autónoma.
+### 🔍 Ingeniería Inversa y Memory Hacking (Exploits de Juegos)
+* **Manipulación de Memoria Activa:** Desarrollo de software externo de lectura y escritura de memoria virtual del sistema operativo utilizando APIs nativas de Windows para mapeo de memoria y evasión de privilegios.
+* **Extracción de Offsets (Automated Dumping):** Desarrollo de escáneres heurísticos dinámicos y herramientas de extracción de firmas de bytes (**AOB Scanning / Pattern Scanning**) para mantener los offsets de memoria de juegos actualizados en tiempo real.
 * **Evasión de Sistemas Anti-Cheat:**
-  * **VAC (Valve Anti-Cheat):** Análisis de firmas de escaneo y técnicas para evitar análisis en tiempo de ejecución.
-  * **EasyAntiCheat (EAC) & BattlEye:** Investigación de vectores a nivel de kernel (comunicación mediante drivers IRP, manipulación de `CR3` y protección de handles).
-  * **Byfron / Hyperion:** Análisis de las técnicas de virtualización y ofuscación de código del lado del usuario (User-mode protection) para descifrar el flujo del ejecutable.
-* **Desensamblado y Depuración:** Deconstrucción de ejecutables comerciales protegidos mediante **IDA Pro**, **Ghidra**, **x64dbg** y **ReClass.NET**.
+  * **VAC (Valve Anti-Cheat):** Evasión de escaneos de firmas en memoria de usuario.
+  * **EasyAntiCheat (EAC) & BattlEye:** Análisis de comunicación a nivel de kernel (drivers de nivel Ring 0) y suplantación de llamadas legítimas.
+  * **Byfron / Hyperion (Roblox):** Análisis de mecanismos de virtualización, descifrado y empaquetamiento del espacio de usuario (User-mode obfuscation).
+* **Análisis de Estructuras y Reconstrucción:** Reconstrucción de clases de motores gráficos (Unity, Unreal Engine, Source) utilizando **IDA Pro**, **x64dbg** y **ReClass.NET**.
+
+### 🖥️ Desarrollo en C++ de Bajo Nivel y APIs Gráficas
+* **C++ Moderno (C++20):** Implementación de código de alto rendimiento sin dependencias externas, reduciendo al máximo la firma en memoria.
+* **Interfaces Dear ImGui:** Creación de overlays interactivos, menús premium y loaders con animaciones fluidas renderizados nativamente sobre **DirectX 11** y **DirectX 9**.
+* **Protección de Código:** Ofuscación estática, encriptación en tiempo de compilación y carga dinámica de funciones API de Windows para evitar la detección heurística.
 
 ### 🛡️ FiveM Security y Desarrollo de Anticheats
 * **Protección contra Inyección de Eventos:** Aseguramiento y sanitización de llamadas en el backend frente a inyecciones no autorizadas de `TriggerServerEvent` mediante validaciones estrictas de origen, tokens dinámicos temporales y límites de tasa (*rate limiting*).
-* **Detección de Conductas Maliciosas (Cheats):** Creación de algoritmos heurísticos cliente/servidor para identificar anomalías de movimiento (noclip, speedhack), spawns no autorizados de entidades (vehículos, objetos, armas) y manipulación de memoria/variables nativas.
-* **Detección de Mod Menus y Executors:** Implementación de contramedidas activas para detectar la inyección y ejecución de scripts externos (executors de cheats) mediante el escaneo/monitoreo de tablas globales, recursos ocultos y funciones nativas alteradas.
-
-### 🛡️ Seguridad Web y Pentesting Ético
-* **Auditoría de APIs:** Identificación de vulnerabilidades guiado por el estándar **OWASP Top 10 API Security** para evitar fugas de información.
-* **Protección Perimetral:** Investigación en entornos de laboratorio sobre el comportamiento de sistemas WAF, mitigación de bots y mecanismos de validación (Captcha/Cloudflare) para entender cómo mejorar su configuración y robustez.
+* **Detección de Conductas Maliciosas:** Creación de algoritmos heurísticos cliente/servidor para identificar anomalías de movimiento (noclip, speedhack), spawns no autorizados de entidades y manipulación de variables nativas.
+* **Detección de Executors:** Implementación de contramedidas activas para detectar la inyección y ejecución de scripts externos (executors de cheats) mediante el escaneo/monitoreo de tablas globales, recursos ocultos y funciones nativas alteradas.
 
 ---
 
@@ -74,11 +77,18 @@ A lo largo de mi trayectoria, he investigado a fondo la arquitectura interna del
   <img src="https://img.shields.io/badge/Dear_ImGui-78D2FF?style=for-the-badge&logo=target&logoColor=black" alt="ImGui" />
 </div>
 
+### 🛡️ Ciberseguridad Ofensiva y Pentesting
+<div align="left">
+  <img src="https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Nmap-007396?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
+</div>
+
 ### 🎮 Entornos, Render y DevOps
 <div align="left">
   <img src="https://img.shields.io/badge/FiveM-F0822B?style=for-the-badge&logo=fivem&logoColor=white" alt="FiveM" />
   <img src="https://img.shields.io/badge/DirectX_11-000000?style=for-the-badge&logo=windows&logoColor=white" alt="DirectX 11" />
-  <img src="https://img.shields.io/badge/DirectX_9-000000?style=for-the-badge&logo=windows&logoColor=white" alt="DirectX 9" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
 </div>
 
