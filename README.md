@@ -5,7 +5,7 @@
 </p>
 
 ### **🛠️ C++ Low-Level Developer | 🔍 Game Security & Reverse Engineer | 🛡️ Grey Hat Offensive Cybersecurity**
-*Especializado en ingeniería inversa, desarrollo de loaders de seguridad en C++, extracción de offsets de memoria (dumping), exploits de videojuegos, cheats externos, evasión de anticheats (VAC, EAC, BE, Byfron) y desarrollo defensivo/ofensivo.*
+*Especializado en ingeniería inversa, desarrollo de loaders de seguridad en C++, extracción de offsets de memoria (dumping), exploits de videojuegos, cheats externos (destacando **Fernet External para Roblox**), evasión de anticheats (VAC, EAC, BE, Byfron) y desarrollo defensivo/ofensivo.*
 
 ---
 
@@ -57,6 +57,24 @@ Dedico mi tiempo a la investigación de vulnerabilidades lógicas en videojuegos
 
 ---
 
+## 🎮 Proyecto Destacado: Fernet External (Roblox Memory Reader)
+
+Mi proyecto más avanzado en el ecosistema de Roblox es **Fernet External**, un asistente externo de última generación programado íntegramente en **C++20**. A diferencia de los exploits de scripting tradicionales (Luau Executors), Fernet opera de forma **totalmente externa al proceso del juego**, leyendo y escribiendo directamente la memoria virtual de `RobloxPlayerBeta.exe` mediante las APIs nativas de Windows (`ReadProcessMemory` / `WriteProcessMemory`).
+
+Esta arquitectura externa, combinada con un overlay interactivo en **Dear ImGui y DirectX 11**, permite ejecutar funcionalidades de trampa de alto rendimiento sin modificar el código Lua interno del motor ni alterar las tablas globales del juego, minimizando drásticamente la huella de detección frente a sistemas como **Byfron (Hyperion)**.
+
+**Capacidades Clave del Software Externo:**
+* **Aimbot y Triggerbot Silencioso:** Cálculos geométricos y predicción de trayectorias sin inyectar hilos dentro del motor de Roblox.
+* **Desincronización (Desync) y Anti-Aim:** Manipulación externa de ángulos de red y paquetes para confundir a otros jugadores.
+* **Visuales y ESP Avanzado:** Renderizado externo de chams, cajas 2D/3D y esqueletos sobre el overlay de DirectX, basándose en datos leídos de las estructuras de entidades del juego.
+* **Modificaciones del Mundo y del Jugador:** Alteración de físicas del personaje (Speedhack, Noclip, Fly) y parámetros de iluminación global mediante parches de memoria seguros.
+* **Protección Anti-Cracking y Anti-Depuración:** Sistema de autodefensa del ejecutable con cifrado de strings en tiempo de compilación y monitoreo de heartbeats para evadir debuggers.
+
+*Descubre más sobre el ecosistema de desarrollo de trampas externas en el repositorio oficial:*
+➡️ **[Fernet External](https://github.com/invertilo/fernet-external)**
+
+---
+
 ## 🛠️ Tech Stack Extendido
 
 ### 🚀 Lenguajes de Programación y Scripting
@@ -85,8 +103,10 @@ Dedico mi tiempo a la investigación de vulnerabilidades lógicas en videojuegos
   <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
 </div>
 
-### 🎮 Entornos, Render y DevOps
+### 🎮 Entornos, Render y Plataformas Específicas
 <div align="left">
+  <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white" alt="Roblox" />
+  <img src="https://img.shields.io/badge/Byfron_Hyperion-FF0000?style=for-the-badge&logo=robloxstudio&logoColor=white" alt="Byfron/Hyperion" />
   <img src="https://img.shields.io/badge/FiveM-F0822B?style=for-the-badge&logo=fivem&logoColor=white" alt="FiveM" />
   <img src="https://img.shields.io/badge/DirectX_11-000000?style=for-the-badge&logo=windows&logoColor=white" alt="DirectX 11" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
@@ -97,12 +117,14 @@ Dedico mi tiempo a la investigación de vulnerabilidades lógicas en videojuegos
 ## 🎯 Objetivos y Enfoques de Investigación
 * 🔍 **Desarrollo de Controladores Kernel (Drivers Ring 0):** Implementación de controladores firmados/mapeados dinámicamente para la lectura de memoria física saltando la protección de Handles estándar.
 * 🛡️ **Análisis de Virtualización de Código:** Investigación de mecanismos avanzados de des-ofuscación para rutinas virtualizadas en VMProtect y Themida.
+* 🧠 **Byfron Internals & Luau Decompilation:** Ampliar la investigación sobre el ofuscamiento del bytecode de Luau y las protecciones anti-tampering de Hyperion para mejorar las técnicas de evasión de Fernet External.
 * 🐳 **Sistemas de Seguridad Distribuida:** Integración de sistemas de seguridad en loaders conectados a bases de datos relacionales robustas para mitigar el cracking por software.
 
 ---
 
 ## 📂 Proyectos Destacados
 
+* **[Fernet External](https://github.com/invertilo/fernet-external):** Software de asistencia externa premium para Roblox. Lee y escribe la memoria del proceso del juego usando C++20 para ofrecer Aimbot, Visuales ESP, y modificaciones del mundo mediante un overlay fluido de Dear ImGui y DirectX 11, evadiendo las protecciones de Byfron/Hyperion.
 * **[Fernet Loader](https://github.com/invertilo/fernet):** Gestor premium multijuegos desarrollado en C++ y Dear ImGui que permite inyectar y ejecutar menús de asistencia y cheats externos de forma controlada y segura, minimizando las firmas de detección e implementando evasión dinámica.
 * **[askforvinicius](https://github.com/invertilo/askforvinicius):** Portfolio personal de seguridad premium para ejecutivos y líderes tecnológicos. Incluye un sistema integrado de simulación de intrusión (honeypot) para registrar e identificar intentos de explotación no autorizados.
 
