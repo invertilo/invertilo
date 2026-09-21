@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="invertilo — askforvini.pw" width="100%" />
+  <img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/header.svg" alt="invertilo — askforvini.pw" width="100%" />
 </p>
 
 <p align="center">
