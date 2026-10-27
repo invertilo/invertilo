@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="invertilo - askforvini.pw - Red Team">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .serif { font-family: Georgia, 'Times New Roman', serif; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; }
+
+    .fade { opacity: 0; animation: fadeUp 0.9s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; }
+    .d2 { animation-delay: 0.35s; }
+    .d3 { animation-delay: 0.6s; }
+    .d4 { animation-delay: 0.85s; }
+    .d5 { animation-delay: 1.1s; }
+
+    .rule { transform-origin: 72px 215px; transform: scaleX(0); animation: grow 1.1s cubic-bezier(.2,.7,.2,1) 0.5s forwards; }
+    .scan { animation: scan 6s linear infinite; }
+    .glowA { animation: drift 9s ease-in-out infinite alternate; }
+    .glowB { animation: drift 11s ease-in-out infinite alternate-reverse; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .pulse { transform-origin: 1060px 232px; animation: pulse 2.4s ease-out infinite; }
+    .tag { opacity: 0; animation: fadeUp 0.8s ease-out 1.4s forwards; }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes grow { to { transform: scaleX(1); } }
+    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(400px); } }
+    @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(-40px, 24px); } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: 0.7; } 100% { transform: scale(3.2); opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, .fade, .rule, .scan, .glowA, .glowB, .cursor, .pulse, .tag {
+        animation: none !important;
+      }
+      .fade, .tag { opacity: 1; }
+      .rule { transform: scaleX(1); }
+      .scan, .pulse { display: none; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12110E"/>
+      <stop offset="55%" stop-color="#1C1A16"/>
+      <stop offset="100%" stop-color="#162536"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#3A6EA5" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#3A6EA5" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#C4A36A" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A6EA5" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#3A6EA5"/>
+      <stop offset="70%" stop-color="#C4A36A"/>
+      <stop offset="100%" stop-color="#C4A36A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A6EA5" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3A6EA5" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#3A6EA5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="360"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <circle class="glowA" cx="980" cy="40" r="180" fill="#3A6EA5" opacity="0.16" filter="url(#soft)"/>
+    <circle class="glowB" cx="180" cy="320" r="140" fill="#C4A36A" opacity="0.10" filter="url(#soft)"/>
+    <rect width="1200" height="360" fill="url(#wash)"/>
+
+    <g stroke="#F3EDE2" stroke-opacity="0.04" stroke-width="1">
+      <path d="M0 90 H1200"/>
+      <path d="M0 180 H1200"/>
+      <path d="M0 270 H1200"/>
+      <path d="M200 0 V360"/>
+      <path d="M400 0 V360"/>
+      <path d="M600 0 V360"/>
+      <path d="M800 0 V360"/>
+      <path d="M1000 0 V360"/>
+    </g>
+
+    <rect class="scan" x="0" y="0" width="1200" height="40" fill="url(#scanline)"/>
+  </g>
+
+  <text class="mono fade d1" x="72" y="118" fill="#C4A36A" font-size="15" letter-spacing="0.28em">INVERTILO</text>
+
+  <g class="fade d2">
+    <text class="serif" x="72" y="188" fill="#F3EDE2" font-size="64" font-weight="500">askforvini</text>
+    <text class="mono" x="430" y="188" fill="#C4A36A" font-size="36" letter-spacing="0.04em">.pw</text>
+    <rect class="cursor" x="500" y="160" width="14" height="30" fill="#C4A36A"/>
+  </g>
+
+  <rect class="rule" x="72" y="214" width="280" height="2" fill="url(#rule)"/>
+
+  <text class="serif fade d3" x="72" y="258" fill="#D8D0C4" font-size="22">Red Team  /  Backend  /  Systems  /  Security</text>
+  <text class="sans fade d4" x="72" y="296" fill="#9A9286" font-size="16">Santa Cruz de la Sierra  ·  Mercav.lat  ·  C++20 / TypeScript</text>
+
+  <g class="fade d5">
+    <g transform="translate(1040 88)">
+      <rect x="0" y="0" width="72" height="72" rx="14" fill="#1A1814" stroke="#3A6EA5" stroke-width="1.5"/>
+      <text class="serif" x="36" y="48" text-anchor="middle" fill="#F3EDE2" font-size="34" font-weight="600">V</text>
+    </g>
+  </g>
+
+  <g class="tag">
+    <rect x="938" y="214" width="196" height="36" rx="18" fill="#1A1814" stroke="#C4A36A" stroke-opacity="0.6" stroke-width="1"/>
+    <circle class="pulse" cx="1060" cy="232" r="4" fill="#D9534F"/>
+    <circle cx="1060" cy="232" r="4" fill="#D9534F"/>
+    <text class="mono" x="958" y="237" fill="#F3EDE2" font-size="14" letter-spacing="0.12em">RED TEAM</text>
+  </g>
+</svg>

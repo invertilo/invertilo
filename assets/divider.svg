@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="presentation" aria-hidden="true">
+  <style>
+    .spark { animation: travel 5s ease-in-out infinite; }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(1080px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .spark { animation: none !important; display: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A6EA5" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3A6EA5" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#C4A36A" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#C4A36A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3EDE2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F3EDE2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F3EDE2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="5" width="1200" height="2" fill="url(#line)"/>
+  <rect class="spark" x="0" y="4" width="120" height="4" rx="2" fill="url(#glow)"/>
+</svg>

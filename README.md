@@ -1,26 +1,29 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/header.svg" alt="invertilo — askforvini.pw" width="100%" />
+  <img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/header-animated.svg" alt="invertilo — askforvini.pw · Red Team" width="100%" />
 </p>
 
+<h3 align="center">Vinicius · Red Team</h3>
+
 <p align="center">
-  <b>Vinicius</b> · Santa Cruz de la Sierra, Bolivia<br/>
+  Santa Cruz de la Sierra, Bolivia<br/><br/>
   <code>Backend &amp; web logic</code>
   ·
   <code>C++20 systems</code>
   ·
-  <code>Offensive / defensive security</code><br/>
+  <code>Offensive / defensive security</code><br/><br/>
   CEO at <a href="https://mercav.lat"><b>Mercav.lat</b></a>
   ·
   <a href="https://askforvini.pw"><b>askforvini.pw</b></a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Role-Red%20Team-B23A3A?style=for-the-badge&labelColor=12110E" alt="Role: Red Team" />
   <a href="https://askforvini.pw"><img src="https://img.shields.io/badge/Portfolio-askforvini.pw-3A6EA5?style=for-the-badge&labelColor=12110E" alt="Portfolio" /></a>
   <a href="https://mercav.lat"><img src="https://img.shields.io/badge/Product-Mercav.lat-C4A36A?style=for-the-badge&labelColor=12110E" alt="Mercav" /></a>
   <a href="mailto:vini@askforvini.pw"><img src="https://img.shields.io/badge/Mail-vini%40askforvini.pw-F3EDE2?style=for-the-badge&labelColor=12110E" alt="Email" /></a>
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
 ### About
 
@@ -28,9 +31,10 @@ Diseño backend y lógica web (APIs, auth, dominio), C++20 de bajo nivel, ingeni
 
 I start from how a program holds state, speaks on the network, and protects itself — then I design the service, probe where it yields, and close it.
 
-> Grey-hat here means studying the attack path to design the defense — not publishing recipes.
+> Grey-hat: estudio el camino del ataque para diseñar la defensa — no publico recetas.
+> <sub>Grey-hat here means studying the attack path to design the defense — not publishing recipes.</sub>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
 ### Craft
 
@@ -51,17 +55,57 @@ I start from how a program holds state, speaks on the network, and protects itse
   </tr>
 </table>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
-### Stack
+### Stack actual
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,ts,nodejs,python,docker,linux,git,vercel&theme=dark" alt="Tech stack" />
-  </a>
+<sub>Tecnologías de mi trabajo reciente.</sub>
+
+**Backend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nestjs,ts,nodejs,prisma,postgres,mongodb,vitest&theme=dark" alt="NestJS, TypeScript, Node.js, Prisma, PostgreSQL, MongoDB, Vitest" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/tRPC-v10-3A6EA5?style=flat-square&labelColor=12110E" alt="tRPC v10" />
+  <img src="https://img.shields.io/badge/zod-validation-3A6EA5?style=flat-square&labelColor=12110E" alt="zod" />
+  <img src="https://img.shields.io/badge/SQL%20Server-mssql-3A6EA5?style=flat-square&labelColor=12110E" alt="SQL Server (mssql)" />
 </p>
 
-<p align="center">
+**Frontend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind&theme=dark" alt="React, Vite, Tailwind CSS" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/TanStack-Router%20%2F%20Query-C4A36A?style=flat-square&labelColor=12110E" alt="TanStack Router / Query" />
+  <img src="https://img.shields.io/badge/Capacitor-Android-C4A36A?style=flat-square&labelColor=12110E" alt="Capacitor" />
+</p>
+
+**Mobile nativo**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=kotlin&theme=dark" alt="Kotlin" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-Android-3A6EA5?style=flat-square&labelColor=12110E" alt="Jetpack Compose" />
+</p>
+
+**Infra**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,git,vercel&theme=dark" alt="Docker, nginx, Linux, Git, Vercel" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Docker%20Compose-deploy-C4A36A?style=flat-square&labelColor=12110E" alt="Docker Compose" />
+</p>
+
+**Systems &amp; security**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,python&theme=dark" alt="C++, Python" />
+</p>
+<p>
   <img src="https://img.shields.io/badge/REST-12110E?style=flat-square&color=3A6EA5" alt="REST" />
   <img src="https://img.shields.io/badge/SQL-12110E?style=flat-square&color=3A6EA5" alt="SQL" />
   <img src="https://img.shields.io/badge/Authn%20%2F%20Authz-12110E?style=flat-square&color=C4A36A" alt="Auth" />
@@ -70,7 +114,9 @@ I start from how a program holds state, speaks on the network, and protects itse
   <img src="https://img.shields.io/badge/DirectX%20%2F%20ImGui-12110E?style=flat-square&color=C4A36A" alt="DirectX ImGui" />
 </p>
 
----
+<p align="center"><sub>Icons by <a href="https://skillicons.dev">skillicons.dev</a></sub></p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
 ### Featured work
 
@@ -94,7 +140,7 @@ I start from how a program holds state, speaks on the network, and protects itse
   </tr>
 </table>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
 ### Activity
 
@@ -107,7 +153,7 @@ I start from how a program holds state, speaks on the network, and protects itse
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=invertilo&theme=github_dark" alt="Repos per language" />
 </p>
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/invertilo/invertilo/main/assets/divider.svg" alt="" width="100%" /></p>
 
 ### Connect
 
