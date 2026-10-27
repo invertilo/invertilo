@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="invertilo - askforvini.pw - Red Team">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="invertilo - askforvini.pw - Red Team, backend, ciberanálisis y pentesting autorizado">
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .serif { font-family: Georgia, 'Times New Roman', serif; }
@@ -94,8 +94,8 @@
 
   <rect class="rule" x="72" y="214" width="280" height="2" fill="url(#rule)"/>
 
-  <text class="serif fade d3" x="72" y="258" fill="#D8D0C4" font-size="22">Red Team  /  Backend  /  Systems  /  Security</text>
-  <text class="sans fade d4" x="72" y="296" fill="#9A9286" font-size="16">Santa Cruz de la Sierra  ·  Mercav.lat  ·  C++20 / TypeScript</text>
+  <text class="serif fade d3" x="72" y="258" fill="#D8D0C4" font-size="22">Red Team  ·  Backend  ·  Ciberanálisis  ·  Pentesting autorizado</text>
+  <text class="sans fade d4" x="72" y="296" fill="#9A9286" font-size="16">Santa Cruz de la Sierra, Bolivia  ·  CEO en Mercav.lat</text>
 
   <g class="fade d5">
     <g transform="translate(1040 88)">
